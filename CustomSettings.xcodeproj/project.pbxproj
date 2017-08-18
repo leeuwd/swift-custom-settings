@@ -12,6 +12,7 @@
 		0F3DA3791F4700780009655E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3DA3771F4700780009655E /* Main.storyboard */; };
 		0F3DA37B1F4700780009655E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3DA37A1F4700780009655E /* Assets.xcassets */; };
 		0F3DA37E1F4700780009655E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3DA37C1F4700780009655E /* LaunchScreen.storyboard */; };
+		0F3DA3861F4703250009655E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F3DA3851F4703250009655E /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0F3DA37A1F4700780009655E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F3DA37D1F4700780009655E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F3DA37F1F4700780009655E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F3DA3851F4703250009655E /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				0F3DA37A1F4700780009655E /* Assets.xcassets */,
 				0F3DA37C1F4700780009655E /* LaunchScreen.storyboard */,
 				0F3DA37F1F4700780009655E /* Info.plist */,
+				0F3DA3851F4703250009655E /* Settings.bundle */,
 			);
 			path = CustomSettings;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F3DA3861F4703250009655E /* Settings.bundle in Resources */,
 				0F3DA37E1F4700780009655E /* LaunchScreen.storyboard in Resources */,
 				0F3DA37B1F4700780009655E /* Assets.xcassets in Resources */,
 				0F3DA3791F4700780009655E /* Main.storyboard in Resources */,
@@ -304,6 +308,7 @@
 				0F3DA3841F4700780009655E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
