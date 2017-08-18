@@ -20,6 +20,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         textView.becomeFirstResponder()
+
+        print("night mode setting is: \(UserDefaults.standard.bool(forKey: "nightMode"))")
     }
 
 }
